@@ -1,0 +1,35 @@
+{
+  "name": "ngtrufflecampaign",
+  "version": "1.0.0",
+  "description": "angular 1.6.9 bootstrap with truffle and campaign solidity contract example",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular",
+    "1.6.9",
+    "bootstrap",
+    "truffle",
+    "solidity",
+    "campaign",
+    "contract",
+    "ganache-cli",
+    "example",
+    "boilerplate",
+    "example",
+    "account",
+    "balance"
+  ],
+  "author": "Pon ArunKumar Ramalingam",
+  "license": "MIT",
+  "devDependencies": {
+    "angular": "^1.6.9",
+    "bluebird": "^3.5.1",
+    "create-html": "^4.1.0",
+    "truffle": "^4.0.6",
+    "truffle-contract": "^3.0.3",
+    "web3": "^0.20.1",
+    "webpack": "^3.10.0"
+  }
+}
