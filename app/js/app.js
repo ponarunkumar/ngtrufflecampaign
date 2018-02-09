@@ -6,12 +6,7 @@ var Campaign = truffleContract(campaignJson);
 
 var app = angular.module('campaignApp', []);
 
-app.config(function($locationProvider)){
-	$locationProvider.html5Mode({
-		enabled: true,
-		requireBase: false
-	});
-});
+app.config(require("./app.config.js"));
 
 app.controller("campaignController",
 		['$scope', '$location', '$http', '$q', '$window', '$timeout', 
