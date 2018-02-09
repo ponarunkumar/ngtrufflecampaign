@@ -26,6 +26,7 @@
   "devDependencies": {
     "angular": "^1.6.9",
     "bluebird": "^3.5.1",
+    "copy-webpack-plugin": "^4.4.1",
     "create-html": "^4.1.0",
     "truffle": "^4.0.6",
     "truffle-contract": "^3.0.3",
